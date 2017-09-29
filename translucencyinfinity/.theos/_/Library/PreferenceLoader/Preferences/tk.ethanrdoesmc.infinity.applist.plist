@@ -1,0 +1,33 @@
+entry = {
+  bundle = AppList;
+  cell = PSLinkCell;
+  icon = "/Library/PreferenceLoader/Preferences/no-icon.png";
+  isController = 1;
+  label = Translucency AppList;
+  ALSettingsPath = "/var/mobile/Library/Preferences/tk.ethanrdoesmc.infinity.applist.plist";
+  ALSettingsKeyPrefix = "";
+  ALChangeNotification = "tk.ethanrdoesmc.translucency.settingschanged";
+  ALAllowsSelection = 2;
+  ALSectionDescriptors = (
+	{
+		 items = (
+		);
+		"footer-title" = "AppList for Nero10 Implementation of Translucency";
+	},
+  	{
+  	  title = "System Applications";
+  	  predicate = "(isSystemApplication = TRUE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	},
+  	{
+  	  title = "User Applications";
+  	  predicate = "(isSystemApplication = FALSE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+	  "footer-title" = "More to come soon. Beta distro.";
+  	}
+  );
+};

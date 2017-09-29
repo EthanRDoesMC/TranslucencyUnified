@@ -1,4 +1,3 @@
-//
 //  TranslucentMessagesSettings.mm
 //  TranslucentMessages
 //
@@ -32,13 +31,13 @@
 
 #define HEADER_HEIGHT 150.0f
 
-@interface TranslucentMessagesSettingsController : PSListController
+@interface TranslucencySettingsController : PSListController
 @end
 
-@implementation TranslucentMessagesSettingsController
+@implementation TranslucencySettingsController
 - (id)specifiers {
 	if (_specifiers == nil) {
-		_specifiers = [self loadSpecifiersFromPlistName:@"TranslucentMessages" target:self];
+		_specifiers = [self loadSpecifiersFromPlistName:@"Translucency" target:self];
 	}
 	return _specifiers;
 }
