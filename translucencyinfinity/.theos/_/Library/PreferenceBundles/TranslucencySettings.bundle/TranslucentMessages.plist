@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Translucency</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>label</key>
+			<string>Translucency Method Enabled</string>
+			<key>key</key>
+			<string>trethanr</string>
+			<key>defaults</key>
+			<string>tk.ethanrdoesmc.translucency</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>tk.ethanrdoesmc.translucency.changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>label</key>
+			<string>Translucent Messages Method Enabled</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>defaults</key>
+			<string>tk.ethanrdoesmc.translucency</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>tk.ethanrdoesmc.translucency.changed</string>
+		</dict>
+		<dict>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>I'll be working on a fork of DarkMessages in the future - TranslucentMessages has built-in compatibility, so why not merge them?</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>label</key>
+			<string>Blur Wallpaper</string>
+			<key>key</key>
+			<string>BlurWallpaper</string>
+			<key>defaults</key>
+			<string>tk.ethanrdoesmc.translucency</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>tk.ethanrdoesmc.translucency.changed</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Credits</string>
+			<key>footerText</key>
+			<string>© AppleBetas Development 2017</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>creditOptions</key>
+			<array>
+				<dict>
+					<key>service</key>
+					<string>website</string>
+					<key>username</key>
+					<string>https://ethanrdoesmc.github.io/</string>
+				</dict>
+				<dict>
+					<key>service</key>
+					<string>twitter</string>
+					<key>username</key>
+					<string>EthanRDoesMC_</string>
+				</dict>
+				<dict>
+					<key>service</key>
+					<string>reddit</string>
+					<key>username</key>
+					<string>EthanRDoesMC</string>
+				</dict>
+				<dict>
+					<key>service</key>
+					<string>github</string>
+					<key>username</key>
+					<string>EthanRDoesMC</string>
+				</dict>
+				<dict>
+					<key>forcedFormattedUsername</key>
+					<string>EthanRDoesMC</string>
+					<key>service</key>
+					<string>youtube</string>
+					<key>username</key>
+					<string>channel/UCmZ_Izt6aRnabw-xSQpdf2Q</string>
+				</dict>
+			</array>
+			<key>avatarImage</key>
+			<string>Avatar-AB.jpg</string>
+			<key>creditPosition</key>
+			<string>Developer</string>
+			<key>creditName</key>
+			<string>EthanRDoesMC (Translucency SW) | AppleBetas (TranslucentMessages)</string>
+			<key>height</key>
+			<integer>88</integer>
+			<key>cellClass</key>
+			<string>DDCreditCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>

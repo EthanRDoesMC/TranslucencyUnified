@@ -1,0 +1,11 @@
+Package: tk.ethanrdoesmc.translucency
+Name: Translucency Beta
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: EthanRDoesMC
+Author: EthanRDoesMC
+Section: Tweaks
+Conflicts: tk.ethanrdoesmc.translucencysw
+Version: Pre2-Beta3-Reworked-1
+Installed-Size: 528

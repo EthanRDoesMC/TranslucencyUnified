@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "TranslucencySettings";
+		cell = PSLinkCell;
+		detail = "TranslucencyController";
+		icon = "icon.png";
+		isController = 1;
+		label = "Translucency";
+	};
+}
