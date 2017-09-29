@@ -15,6 +15,5 @@ $(TWEAK_NAME)_CFLAGS = -fobjc-arc -F./Common/
 after-install::
 	install.exec "killall -9 SpringBoard"
 SUBPROJECTS += Settings
-SUBPROJECTS += infinitypatcher
 SUBPROJECTS += infinipatch
 include $(THEOS_MAKE_PATH)/aggregate.mk

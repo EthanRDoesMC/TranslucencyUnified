@@ -1,9 +1,9 @@
 Package: tk.ethanrdoesmc.translucency
 Name: Translucency Infinity Beta
 Depends: mobilesubstrate
-Version: infdev-4
+Version: infdev-5
 Architecture: iphoneos-arm
-Description: Now with Nero10!
+Description: Now with Nero10! And a request from AB! And infinipatcher!
 Maintainer: EthanRDoesMC
 Author: EthanRDoesMC
 Section: Tweaks
