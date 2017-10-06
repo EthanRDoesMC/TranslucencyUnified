@@ -24,7 +24,7 @@
 //
 
 #import "DDCreditCell.h"
-#define PREFERENCE_BUNDLE_PATH  @"/Library/PreferenceBundles/TranslucentMessagesSettings.bundle"
+#define PREFERENCE_BUNDLE_PATH  @"/Library/PreferenceBundles/TranslucencySettings.bundle"
 #define BUTTON_HEIGHT   20
 #define BUTTON_SPACING  14
 

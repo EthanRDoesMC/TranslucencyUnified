@@ -5,6 +5,7 @@ infinipatch_FILES = ifpRootListController.m
 infinipatch_INSTALL_PATH = /Library/PreferenceBundles
 infinipatch_FRAMEWORKS = UIKit
 infinipatch_PRIVATE_FRAMEWORKS = Preferences
+infinipatch_LIBRARIES = PrefUp
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

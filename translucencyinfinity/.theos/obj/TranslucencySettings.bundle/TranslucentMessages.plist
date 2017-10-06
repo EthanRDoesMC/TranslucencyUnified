@@ -115,7 +115,17 @@
 			<key>creditPosition</key>
 			<string>Developer</string>
 			<key>creditName</key>
-			<string>EthanRDoesMC (Translucency SW) | AppleBetas (TranslucentMessages)</string>
+			<string>EthanRDoesMC</string>
+			<key>height</key>
+			<integer>88</integer>
+			<key>cellClass</key>
+			<string>DDCreditCell</string>
+<key>avatarImage</key>
+			<string>Avatar-AB.jpg</string>
+			<key>creditPosition</key>
+			<string>Developer</string>
+			<key>creditName</key>
+			<string>AppleBetas<string>
 			<key>height</key>
 			<integer>88</integer>
 			<key>cellClass</key>
